@@ -1,12 +1,47 @@
-main {
+@font-face {
+    font-family: 'LaBouf-Oblique';
+    src:url('../fonts/LaBouf-Oblique.ttf.woff') format('woff'),
+        url('../fonts/LaBouf-Oblique.ttf.svg#LaBouf-Oblique') format('svg'),
+        url('../fonts/LaBouf-Oblique.ttf.eot'),
+        url('../fonts/LaBouf-Oblique.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+  
+#title, #titlecaption {
+    font-family: 'LaBouf-Oblique';
+    text-align: center;
+}
+  
+header {
+      background-image: url(../images/2007ferrarif1.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      padding: 1.5rem;
+      -webkit-text-stroke: 0.5px black;
+      font-size: 1rem;
+  }
+
+  main {
     background-color:#C00000;
     color: #ffffff;
   }
-  
-  #image {
-    display:block;
-    max-width:100%;
+
+#image {
+    display:inline;
+    max-width:20%;
     height:auto;
     margin:auto;
+    border:2px solid white;
+    border-radius: 10%;
+    position:absolute;
+    right:0px;
   }
   
+footer {
+    background-color:#C00000;
+    color:white;
+    text-align: center;
+}
