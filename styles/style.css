@@ -8,6 +8,10 @@
     font-style: normal;
 }
   
+body {
+
+}
+
 #title, #titlecaption {
     font-family: 'LaBouf-Oblique';
     text-align: center;
@@ -25,23 +29,44 @@ header {
   }
 
   main {
-    background-color:#C00000;
-    color: #ffffff;
+display:block;
+padding:10px;
+  }
+
+  #tribute-info, #p1, #p2 {
+      float:left;
+      width:65%;
+      text-align:justify; 
+      background-color:#C00000;
+      color: #ffffff;
+      padding:1rem;
+      margin-bottom: 10px;
+      border-radius: 5px;    
   }
 
 #image {
-    display:inline;
-    max-width:20%;
+    float:right;
+    width: 25%;
     height:auto;
     margin:auto;
     border:2px solid white;
     border-radius: 10%;
-    position:absolute;
-    right:0px;
+    position:relative;
+    bottom:300px;
   }
   
+ #img-caption {
+     float:right;
+ } 
+
 footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
     background-color:#C00000;
     color:white;
     text-align: center;
+    padding:1rem;
 }
+#flex-container {}
