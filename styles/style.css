@@ -53,8 +53,10 @@ font-family: 'LaBouf-Oblique';
       background-color:#C00000;
       color: #ffffff;
       padding:1rem;
-      border-radius: 5px;
-      margin-left:2rem;    
+      border-radius:5px;
+      margin-left:2rem;
+      padding-left:2rem;
+      padding-right:2rem;    
   }
 
 #tribute-info {
@@ -62,6 +64,7 @@ font-family: 'LaBouf-Oblique';
     justify-self:stretch;
     align-self:center;
     margin-top: 1rem;
+    text-align:justify;
 }
 
 #p1 {
@@ -85,6 +88,7 @@ font-family: 'LaBouf-Oblique';
     padding:1rem;
     border-radius:10px;
     align-items: stretch;
+    padding-top:2rem;
 }
  
 #image {
@@ -124,4 +128,8 @@ footer {
     color:white;
     text-align: center;
     padding:1rem;
+}
+
+#achievelist {
+    column-count: 4;
 }
