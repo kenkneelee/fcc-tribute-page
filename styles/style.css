@@ -62,7 +62,7 @@ font-family: 'LaBouf-Oblique';
 #tribute-info {
     grid-column: 1/3;
     justify-self:stretch;
-    align-self:center;
+    align-self:stretch;
     text-align:justify;
 }
 
