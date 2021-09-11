@@ -64,6 +64,7 @@ font-family: 'LaBouf-Oblique';
     justify-self:stretch;
     align-self:stretch;
     text-align:justify;
+    align-items:stretch;
 }
 
 #p1 {
